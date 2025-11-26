@@ -1,13 +1,13 @@
 const catcards = [
-    {name:"6", value:6,  img:"img/6.png"},
-    {name:"7", value:7,  img:"img/7.png"},
-    {name:"8", value:8,  img:"img/8.png"},
-    {name:"9", value:9,  img:"img/9.png"},
-    {name:"10",value:10, img:"img/10.png"},
-    {name:"J", value:2,  img:"img/J.png"},
-    {name:"Q", value:3,  img:"img/Q.png"},
-    {name:"K", value:4,  img:"img/K.png"},
-    {name:"A", value:11, img:"img/A.png"},
+    {name:"6", value:6,  img:"6.png"},
+    {name:"7", value:7,  img:"7.png"},
+    {name:"8", value:8,  img:"8.png"},
+    {name:"9", value:9,  img:"9.png"},
+    {name:"10",value:10, img:"10.png"},
+    {name:"J", value:2,  img:"J.png"},
+    {name:"Q", value:3,  img:"Q.png"},
+    {name:"K", value:4,  img:"K.png"},
+    {name:"A", value:11, img:"A.png"},
 ];
 
 let round = 1;
@@ -55,3 +55,4 @@ document.getElementById("generate").addEventListener("click", () => {
     else resultElem.textContent = "Нічия!";
   }
 });
+
